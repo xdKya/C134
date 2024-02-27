@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade do Aluno</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./static/index.js"></script>
+    
+</head>
+
+<body>
+    <!--Data-->
+    <div>
+        <h4 id='display_date'>DATA</h4>
+    </div>
+
+    <!--Texto de Entrada -->
+    <div>
+        <h4>Digite o Texto</h4>
+        <textarea id="text" name="text_input" rows="4" maxlength="200" 
+                    placeholder="Como foi o seu dia?"></textarea>
+        <br><br>
+    </div>
+
+    <!--Botão de Previsão-->
+    <div>
+        <button id="predict_button" type="submit">Prever Emoção</button><br><br>
+    </div>
+
+    <!--Emoção Prevista-->
+    <div>
+        <p id="prediction" style="display:block"></p>
+        <img id="emo_img_url" src="" width="55" min-height="50" alt="" 
+        style="display:block">
+    </div>
+
+</body>
+
+</html>
